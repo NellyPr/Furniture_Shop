@@ -51,7 +51,7 @@
 
 .logo {
   margin-top: 8px;
-  font-family: GilroyBold;
+  font-family: GilroySemiBold;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -339,6 +339,7 @@
 
 /**     **************************************************** **/
 .shadow {
+  display: none;
   position: absolute;
   color: #ffffff;
 }
@@ -605,7 +606,7 @@
 .full_slider {
   display: flex;
   width: 1285px;
-  height: 440px;
+  height: 480px;
   background-image: url("/pic/slider.png");
 }
 
@@ -631,11 +632,20 @@
   color: #3A3A3A;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 710px;
+  background-image: url("/pic/Share.png");
+}
+
 .line_footer {
   width: 1237px;
   height: 0px;
   left: 100px;
   top: 4308px;
+  margin-top: 87px;
   border: 1px solid #D8D8D8;
 }
 
@@ -645,7 +655,6 @@
   width: 1440px;
   height: 367px;
   margin-top: 31px;
-  border: 1px solid black;
 }
 
 .funiro {
@@ -653,7 +662,6 @@
   height: 237px;
   margin-top: 49px;
   margin-left: 102px;
-  border: 1px solid black;
 }
 
 .fun_1 {
@@ -666,6 +674,7 @@
 }
 
 .fun_2 {
+  margin-top: 16px;
   margin-bottom: 16px;
   font-family: GilroyMedium;
   font-style: normal;
@@ -680,14 +689,16 @@
 }
 
 .menu_f {
+  display: flex;
+  flex-direction: column;
   width: 104px;
   height: 229px;
   margin-top: 49px;
   margin-left: 80px;
-  border: 1px solid black;
 }
 
 .menu_f h1 {
+  margin-bottom: 16px;
   font-family: GilroySemiBold;
   font-style: normal;
   font-weight: bold;
@@ -698,7 +709,6 @@
 
 .menu_f a {
   text-decoration: none;
-  margin-top: 16px;
   margin-bottom: 16px;
   font-family: GilroyMedium;
   font-style: normal;
@@ -709,14 +719,16 @@
 }
 
 .account {
+  display: flex;
+  flex-direction: column;
   width: 93px;
   height: 189px;
   margin-top: 49px;
   margin-left: 80px;
-  border: 1px solid black;
 }
 
 .account h1 {
+  margin-bottom: 16px;
   font-family: GilroySemiBold;
   font-style: normal;
   font-weight: bold;
@@ -727,7 +739,6 @@
 
 .account a {
   text-decoration: none;
-  margin-top: 16px;
   margin-bottom: 16px;
   font-family: GilroyMedium;
   font-style: normal;
@@ -737,25 +748,77 @@
   color: #616161;
 }
 
-/** .sh_bl_1:after
-    content: ''
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    background: rgba(0,0,0,.5)
-    opacity: 0 **/
-/** .sh_bl_1:before
-    content: ''
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    background: url(icon-path)
-    opacity: 0 **/
-/** .sh_bl_1:hover:before**/
-/** .sh_bl_1:hover:after
-    opacity: 1  **/
+.connected {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 149px;
+  margin-top: 49px;
+  margin-left: 80px;
+}
+
+.connected h1 {
+  margin-bottom: 16px;
+  font-family: GilroySemiBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.connected a {
+  text-decoration: none;
+  margin-bottom: 16px;
+  font-family: GilroyMedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #616161;
+}
+
+.updatet {
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+  height: 90px;
+  margin-top: 49px;
+  margin-left: 80px;
+}
+
+.updatet h1 {
+  margin-bottom: 16px;
+  font-family: GilroySemiBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.kr {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  width: 242px;
+  height: 45px;
+  background: #F4F5F7;
+  border: none;
+  margin-bottom: 16px;
+  font-family: GilroyMedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #616161;
+}
+
+.updatet img {
+  width: 46px;
+  height: 45px;
+  margin-left: 4px;
+}
 /*# sourceMappingURL=style.css.map */
